@@ -12,6 +12,7 @@ public class MainFrame extends JFrame {
 
         JTabbedPane tabs = new JTabbedPane();
         tabs.addTab("Estudiantes", new EstudiantePanel());
+         tabs.addTab("Cursos", new CursoPanel_1());
         add(tabs);
     }
 }
